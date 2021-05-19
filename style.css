@@ -1,0 +1,47 @@
+.dropdownconent{
+    position:absolute;
+    width:7rem;
+    height:3.5rem;
+    background:blue;
+    transition:.6s;
+}
+.menu{
+    width:7rem;
+    height:3.5rem;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+}
+.dropdownconent:hover{
+    height: 10.5rem;
+}
+.btna1, .btna2, .btna3{
+    position:absolute;
+    top:0;
+    left:0;
+    width:7rem;
+    height:3.5rem;
+    border: solid 1px black;
+    background:transparent;
+    color:transparent;
+    font-size:1rem;
+    cursor:pointer;
+    transition:.6s;
+}
+.dropdownconent:hover > .btna1{
+    top:3.5rem;
+    color: white;
+    background: blue;
+}
+.dropdownconent:hover > .btna2{
+    top:7rem;
+    color: white;
+    background: blue;
+}
+.dropdownconent:hover > .btna3{
+    top:10.5rem;
+    color: white;
+    background: blue;
+}
